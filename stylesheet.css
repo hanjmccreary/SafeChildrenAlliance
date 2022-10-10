@@ -1,0 +1,161 @@
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+body {
+  font-family: Avenir; sans-serif;
+}
+ul {
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  font-weight: 200;
+}
+.Header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("Images/Head.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.HeadBanner a {
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  font-weight: 500;
+}
+.Nav {
+  font-size: 20px;
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Nav img {
+  width: 339px;
+  height: 131px;
+}
+.Nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+.Nav ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+.HeadBanner {
+  color: white;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.HeadBanner h1 {
+  font-size: 50px;
+  margin-top: 80px;
+}
+.HeadBanner button {
+  width: 125px;
+  padding: 11px 0;
+  margin: 20px 10px;
+  border-radius: 12px;
+  font-weight: 500;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+}
+.Banner2 p {
+  color: #002854;
+  font-weight: 200;
+  text-align: center;
+  font-size: 2em;
+  padding-top: 1.5em;
+}
+.Banner2 {
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 2.5em;
+  background-color: #EDEFF3;
+}
+.PlainBanner {
+  color:  #002854;
+  text-align: center;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  width: 100%;
+  padding: 2rem;
+}
+.PlainBanner p {
+  font-size: 1.3rem;
+  font-weight: 200;
+  line-height: 1.6rem;
+}
+.PlainBanner h2 {
+  font-size: 2rem;
+}
+.PlainBanner button {
+  width: 125px;
+  padding: 11px 0;
+  margin: 20px 10px;
+  border-radius: 12px;
+  font-weight: 500;
+  border: 2px solid #002854;
+  background: transparent;
+  color: #002854;
+  font-size: 16px;
+  text-decoration: none;
+}
+.PlainBanner a {
+  text-decoration: none;
+  color: #002854;
+  list-style: none;
+  font-weight: 500;
+}
+#block1 {
+  color: white;
+  font-size: 7em;
+  font-weight: 500;
+  padding-left: 200px;
+}
+#block2 {
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 700;
+  padding-top: 100px;
+}
+.Banner222 {
+  width: 100%;
+  height: 40vh;
+  background-image: url("Images/222Image.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.Banner222 div {
+  float: left;
+  width: 50%;
+}
+.Footer {
+  background-color: #002854;
+  width:  100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Footer nav {
+  padding-left: 35px;
+}
+.Footer img {
+  width: 339px;
+  height: 131px;
+  padding-right: 35px;
+}

@@ -1,0 +1,126 @@
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+body {
+  font-family: Avenir; sans-serif;
+}
+ul {
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  font-weight: 200;
+}
+.Header {
+  width: 100%;
+  height: 70vh;
+  background-image: url("Images/Events image.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.Nav {
+  font-size: 20px;
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Nav img {
+  width: 339px;
+  height: 131px;
+}
+.Nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+.Nav ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+.HeadBanner {
+  color: white;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 35%;
+  transform: translateY(-35%);
+}
+.HeadBanner h1 {
+  font-size: 50px;
+  margin-top: 80px;
+}
+.EventsDate h3 {
+  color: #002854;
+  margin-bottom: -10px;
+}
+.EventsDate h2 {
+  color: #002854;
+  font-weight: 100;
+  font-size: 5em;
+  margin-top: -10px;
+  margin-bottom: 5vh;
+}
+.EventsInfo h2 {
+  color: #002854;
+  font-weight: 600;
+  font-size: 2.5em;
+  margin-bottom: -10px;
+}
+.EventsInfo p {
+  color: #002854;
+}
+.September {
+  overflow: hidden;
+}
+.October10 {
+  overflow: hidden;
+  background-color: #EDEFF3;
+}
+.October21 {
+  overflow: hidden;
+}
+.September div {
+  float: left;
+  width: 50%;
+}
+.October10 div {
+  float: left;
+  width: 50%;
+}
+.October21 div {
+  float: left;
+  width: 50%;
+}
+.EventsDate {
+  padding-left: 20vw;
+  margin-top: 3vh;
+}
+.EventsInfo {
+  margin-top: 1vh;
+}
+Footer {
+  background-color: #002854;
+  width:  100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+Footer nav {
+  padding-left: 35px;
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  font-weight: 200;
+}
+Footer img {
+  width: 339px;
+  height: 131px;
+  padding-right: 35px;
+}

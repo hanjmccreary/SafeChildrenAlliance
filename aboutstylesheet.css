@@ -1,0 +1,110 @@
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+body {
+  font-family: Avenir; sans-serif;
+}
+ul {
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  font-weight: 200;
+}
+.Header {
+  width: 100%;
+  height: 70vh;
+  background-image: url("Images/About image.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.Nav {
+  font-size: 20px;
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Nav img {
+  width: 339px;
+  height: 131px;
+}
+.Nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+.Nav ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+.HeadBanner {
+  color: white;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 35%;
+  transform: translateY(-35%);
+}
+.HeadBanner h1 {
+  font-size: 50px;
+  margin-top: 80px;
+}
+.PlainBanner {
+  color:  #002854;
+  text-align: center;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  width: 100%;
+  padding: 2rem;
+}
+.PlainBanner p {
+  font-size: 1.3rem;
+  font-weight: 200;
+  line-height: 1.6rem;
+}
+.PlainBanner h2 {
+  font-size: 2rem;
+}
+.Team {
+  color:  #002854;
+  text-align: center;
+  padding-bottom: 2em;
+  overflow: hidden;
+}
+.Team h2 {
+  font-size: 2rem;
+}
+.Team h3 {
+  font-size: 1.5rem;
+}
+
+.Team div {
+  float: left;
+  width: 33.333%;
+}
+Footer {
+  background-color: #002854;
+  width:  100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+Footer nav {
+  padding-left: 35px;
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  font-weight: 200;
+}
+Footer img {
+  width: 339px;
+  height: 131px;
+  padding-right: 35px;
+}
